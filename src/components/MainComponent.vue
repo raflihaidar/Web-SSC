@@ -1,5 +1,5 @@
 <template>
-    <main class="w-[85%] mx-auto mb-20 flex justify-between items-center py-7">
+    <main class="w-[85%] mx-auto mb-20 flex justify-between items-center py-7 tracking-wider">
         <section class="w-[20%]  leading-none pl-10 pt-10">
             <div class="text-[46px] leading-[60px] font-medium">
                 <p>

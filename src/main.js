@@ -2,4 +2,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import './assets/main.css'
 
-createApp(App).mount('#app')
+//Vuex
+import store from './store/Store'
+
+createApp(App).use(store).mount('#app')

@@ -10,6 +10,8 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "lord-icon-element": "^4.0.3",
+    "lottie-web": "^5.10.2",
     "vue": "^3.2.47",
     "vuex": "^4.0.2"
   },
