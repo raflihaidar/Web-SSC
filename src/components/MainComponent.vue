@@ -15,7 +15,7 @@
             <p class="opacity-70 text-[15px] mt-3 mb-5">Datang.Buat Tiket.Proses</p>
             <div
                 class="bg-[#AA0000] hover:bg-red-600 text-white text-center w-4/6 py-[16px] px-4 rounded-[4px] font-semibold text-[14px] cursor-pointer transition">
-                Lihat Layanan
+                <a href="#layanan">Lihat Layanan</a>
             </div>
         </section>
         <section class="w-[57%]">

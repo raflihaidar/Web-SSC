@@ -3,7 +3,7 @@ export default {
     category: [
       {
         id: 1,
-        nama: 'Layanan Akademik',
+        nama: 'Akademik',
         icon: 'https://cdn.lordicon.com/wxnxiano.json',
         layanan: [
           {
@@ -45,13 +45,14 @@ export default {
           nama: 'Informasi Akademik',
           notion:
             'Merupakan unit yang bertugas mengelola administrasi akademik yang mencakup kegiatan layanan administrasi akademik, pusat bahasa, dan perpustakaan. Informasi lengkap mengenai Unit Akademik, silakan kunjungi:',
-          ig: 'https://www.instagram.com/akademikitts/',
-          web: 'https://akademik.ittelkom-sby.ac.id/'
+          ig: 'akademikitts',
+          web: 'https://akademik.ittelkom-sby.ac.id/',
+          img: 'https://ssc.ittelkom-sby.ac.id/assets-home/imgs/banner/device-academic.png'
         }
       },
       {
         id: 2,
-        nama: 'Layanan PuTi',
+        nama: 'PuTi',
         icon: 'https://cdn.lordicon.com/qhgmphtg.json',
         layanan: [
           {
@@ -94,13 +95,14 @@ export default {
           nama: 'Informasi PuTi',
           notion:
             'Merupakan unit yang bertugas mengelola administrasi puti yang mencakup kegiatan layanan administrasi puti, pusat bahasa, dan perpustakaan. Informasi lengkap mengenai Unit PuTi, silakan kunjungi::',
-          ig: 'https://www.instagram.com/puti.ittelkomsby/',
-          web: 'https://puti.ittelkom-sby.ac.id/'
+          ig: 'puti.ittelkomsby',
+          web: 'https://puti.ittelkom-sby.ac.id/',
+          img: 'https://ssc.ittelkom-sby.ac.id/assets-home/imgs/banner/device-puti.png'
         }
       },
       {
         id: 3,
-        nama: 'Layanan Kemahasiswaan',
+        nama: 'Kemahasiswaan',
         icon: 'https://cdn.lordicon.com/uukerzzv.json',
         layanan: [
           {
@@ -144,16 +146,17 @@ export default {
           }
         ],
         informasi: {
-          nama: 'Informasi Akademik',
+          nama: 'Informasi Kemahasiswaan',
           notion:
-            'Merupakan unit yang bertugas mengelola administrasi akademik yang mencakup kegiatan layanan administrasi akademik, pusat bahasa, dan perpustakaan. Informasi lengkap mengenai Unit Akademik, silakan kunjungi:',
-          ig: 'https://www.instagram.com/akademikitts/',
-          web: 'https://akademik.ittelkom-sby.ac.id/'
+            'Merupakan unit yang bertugas mengelola administrasi kemahasiswaan yang mencakup kegiatan layanan administrasi kemahasiswaan, pusat bahasa, dan perpustakaan. Informasi lengkap mengenai Unit Kemahasiswaan, silakan kunjungi:',
+          ig: 'kemahasiswaanitts',
+          web: 'https://www.instagram.com/kemahasiswaan.ittelkomsby/',
+          img: 'https://ssc.ittelkom-sby.ac.id/assets-home/imgs/banner/device-kemahasiswaan.png'
         }
       },
       {
         id: 4,
-        nama: 'Layanan Logistik',
+        nama: 'Logistik',
         icon: 'https://cdn.lordicon.com/sbiheqdr.json',
         layanan: [
           {
@@ -175,13 +178,14 @@ export default {
           nama: 'Informasi Logistik',
           notion:
             'Merupakan unit yang bertugas mengelola administrasi logistik yang mencakup kegiatan layanan administrasi logistik, pusat bahasa, dan perpustakaan. Informasi lengkap mengenai Unit Logistik, silakan kunjungi:',
-          ig: 'https://www.instagram.com/logistik.ittelkomsby/',
-          web: 'https://logistik.ittelkom-sby.ac.id/'
+          ig: 'logistik.ittelkomsby',
+          web: 'https://logistik.ittelkom-sby.ac.id/',
+          img: 'https://ssc.ittelkom-sby.ac.id/assets-home/imgs/banner/device-academic.png'
         }
       },
       {
         id: 5,
-        nama: 'Layanan Keuangan',
+        nama: 'Keuangan',
         icon: 'https://cdn.lordicon.com/vaeagfzc.json',
         layanan: [
           {
@@ -223,25 +227,27 @@ export default {
           nama: 'Informasi Keuangan',
           notion:
             'Merupakan unit yang bertugas mengelola administrasi keuangan yang mencakup kegiatan layanan administrasi keuangan, pusat bahasa, dan perpustakaan. Informasi lengkap mengenai Unit Keuangan, silakan kunjungi:',
-          ig: 'https://www.instagram.com/keuangan.ittelkomsby/',
-          web: 'https://keuangan.ittelkom-sby.ac.id/'
+          ig: 'keuangan.ittelkomsby',
+          web: 'https://keuangan.ittelkom-sby.ac.id/',
+          img: 'https://ssc.ittelkom-sby.ac.id/assets-home/imgs/banner/device-keuangan.png'
         }
       },
       {
         id: 6,
-        nama: 'Informasi Pusat Bahasa & Perpustakaan',
+        nama: 'Pusat Bahasa & Perpustakaan',
         icon: 'https://cdn.lordicon.com/gdjyhaga.json',
         informasi: {
           nama: 'Informasi Pusat Bahasa & Perpustakaan',
           notion:
             'Merupakan unit yang bertugas mengelola administrasi perpus yang mencakup kegiatan layanan administrasi perpus, pusat bahasa, dan perpustakaan. Informasi lengkap mengenai Unit Pusat Bahasa & Perpustakaan, silakan kunjungi:',
           ig: 'https://www.instagram.com/akademikitts/',
-          web: 'https://perpus.ittelkom-sby.ac.id/'
+          web: 'https://perpus.ittelkom-sby.ac.id/',
+          img: 'https://ssc.ittelkom-sby.ac.id/assets-home/imgs/banner/device-perpus.png'
         }
       },
       {
         id: 7,
-        nama: 'Layanan FTIB',
+        nama: 'FTIB',
         icon: 'https://cdn.lordicon.com/nobciafz.json',
         layanan: [
           {
@@ -297,13 +303,14 @@ export default {
           nama: 'Informasi FTIB',
           notion:
             'Merupakan unit yang bertugas mengelola administrasi ftib yang mencakup kegiatan layanan administrasi ftib, pusat bahasa, dan perpustakaan. Informasi lengkap mengenai Unit FTIB, silakan kunjungi:',
-          ig: 'https://www.instagram.com/ftib.ittelkomsby/',
-          web: 'https://ftib.ittelkom-sby.ac.id/'
+          ig: 'ftib.ittelkomsby',
+          web: 'https://ftib.ittelkom-sby.ac.id/',
+          img: 'https://ssc.ittelkom-sby.ac.id/assets-home/imgs/banner/device-ftib.png'
         }
       },
       {
         id: 8,
-        nama: 'Layanan FTEIC',
+        nama: 'FTEIC',
         icon: 'https://cdn.lordicon.com/ckuogwdx.json',
         layanan: [
           {
@@ -365,12 +372,61 @@ export default {
           nama: 'Informasi FTEIC',
           notion:
             'Merupakan unit yang bertugas mengelola administrasi fteic yang mencakup kegiatan layanan administrasi fteic, pusat bahasa, dan perpustakaan. Informasi lengkap mengenai Unit FTEIC, silakan kunjungi:',
-          ig: 'https://www.instagram.com/fteic.ittelkomsby/',
-          web: 'https://fteic.ittelkom-sby.ac.id/'
+          ig: 'fteic.ittelkomsby',
+          web: 'https://fteic.ittelkom-sby.ac.id/',
+          img: 'https://ssc.ittelkom-sby.ac.id/assets-home/imgs/banner/device-ftib.png'
         }
       }
     ],
-    selectedItem: null
+    selectedItem: {
+      id: 1,
+      nama: 'Akademik',
+      icon: 'https://cdn.lordicon.com/wxnxiano.json',
+      layanan: [
+        {
+          name: 'Registrasi KRS',
+          notion: 'Merupakan registrasi mahasiswa pada setiap semester awal perkuliahan',
+          icon: 'https://ssc.ittelkom-sby.ac.id/assets-home/imgs/page/akademik/registrasi-krs.png',
+          status: true
+        },
+        {
+          name: 'Ujian (UTS & UAS)',
+          notion:
+            'Layanan pengumuman jadwal kegiatan ujian akademik yang bertujuan untuk melakukan pengukuran dan penilaian kompetensi peserta didik, sebagai dasar kegiatan evaluasi pembelajaran perkuliahan.',
+          icon: 'https://ssc.ittelkom-sby.ac.id/assets-home/imgs/page/akademik/uts-uas.png',
+          status: false
+        },
+        {
+          name: 'Surat Keterangan Aktif',
+          notion:
+            'Layanan panduan pengajuan surat yang menjelaskan bahwa mahasiswa sebagaimana termaktub pada surat tersebut berstatus aktif mengikuti perkuliahan di semester tertentu.',
+          icon: 'https://ssc.ittelkom-sby.ac.id/assets-home/imgs/page/akademik/surat-keterangan-aktif.png',
+          status: false
+        },
+        {
+          name: 'Layanan Perkuliahan',
+          notion:
+            'Layanan panduan mengenai proses pelayanan perkuliahan yang ada di IT Telkom Surabaya.',
+          icon: 'https://ssc.ittelkom-sby.ac.id/assets-home/imgs/page/akademik/layanan-perkuliahan.png',
+          status: false
+        },
+        {
+          name: 'Ijazah dan Transkrip Nilai',
+          notion:
+            'Layanan mengenai proses penerbitan transkrip dan ijazah kepada calon lulusan dan pihak terkait sehingga proses penerbitan transkrip dapat terkendali.',
+          icon: 'https://ssc.ittelkom-sby.ac.id/assets-home/imgs/page/akademik/ijazah.png',
+          status: false
+        }
+      ],
+      informasi: {
+        nama: 'Informasi Akademik',
+        notion:
+          'Merupakan unit yang bertugas mengelola administrasi akademik yang mencakup kegiatan layanan administrasi akademik, pusat bahasa, dan perpustakaan. Informasi lengkap mengenai Unit Akademik, silakan kunjungi:',
+        ig: 'akademikitts',
+        web: 'https://akademik.ittelkom-sby.ac.id/',
+        img: 'https://ssc.ittelkom-sby.ac.id/assets-home/imgs/banner/device-academic.png'
+      }
+    }
   },
   getters: {
     category: (state) => state.category,

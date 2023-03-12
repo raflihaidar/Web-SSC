@@ -1,12 +1,12 @@
 <template>
-    <div class="w-[85%] mx-auto mb-20 tracking-wider">
+    <div class="w-[85%] mx-auto mb-20 tracking-wider" id="layanan">
         <div>
             <TitleComponent msg="Kategori" msg2="Layanan" />
         </div>
 
         <div class="grid grid-cols-4">
-            <div v-for="item in category" :key="item.id" class="">
-                <div class="w-[312px] border-2 rounded-[0.5rem] mt-5" @click="addToSelectedItem(item)">
+            <div v-for="item in category" :key="item.id">
+                <div class='w-[312px] border-2 rounded-[0.5rem] mt-5 p-5' @click="addToSelectedItem(item)">
                     <figure class="text-center font-bold">
                         <lord-icon trigger="morph" :src="item.icon" class="w-[100px] h-[100px]"></lord-icon>
                         <p>{{ item.nama }}</p>
@@ -14,7 +14,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 </template>
 
