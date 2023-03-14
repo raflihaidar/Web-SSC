@@ -2,7 +2,7 @@ export default {
   state: {
     category: [
       {
-        id: 1,
+        isActive: true,
         nama: 'Akademik',
         icon: 'https://cdn.lordicon.com/wxnxiano.json',
         layanan: [
@@ -51,7 +51,7 @@ export default {
         }
       },
       {
-        id: 2,
+        isActive: false,
         nama: 'PuTi',
         icon: 'https://cdn.lordicon.com/qhgmphtg.json',
         layanan: [
@@ -101,7 +101,7 @@ export default {
         }
       },
       {
-        id: 3,
+        isActive: false,
         nama: 'Kemahasiswaan',
         icon: 'https://cdn.lordicon.com/uukerzzv.json',
         layanan: [
@@ -155,7 +155,7 @@ export default {
         }
       },
       {
-        id: 4,
+        isActive: false,
         nama: 'Logistik',
         icon: 'https://cdn.lordicon.com/sbiheqdr.json',
         layanan: [
@@ -184,7 +184,7 @@ export default {
         }
       },
       {
-        id: 5,
+        isActive: false,
         nama: 'Keuangan',
         icon: 'https://cdn.lordicon.com/vaeagfzc.json',
         layanan: [
@@ -233,7 +233,7 @@ export default {
         }
       },
       {
-        id: 6,
+        isActive: false,
         nama: 'Pusat Bahasa & Perpustakaan',
         icon: 'https://cdn.lordicon.com/gdjyhaga.json',
         informasi: {
@@ -246,7 +246,7 @@ export default {
         }
       },
       {
-        id: 7,
+        isActive: false,
         nama: 'FTIB',
         icon: 'https://cdn.lordicon.com/nobciafz.json',
         layanan: [
@@ -309,7 +309,7 @@ export default {
         }
       },
       {
-        id: 8,
+        isActive: false,
         nama: 'FTEIC',
         icon: 'https://cdn.lordicon.com/ckuogwdx.json',
         layanan: [
@@ -379,7 +379,7 @@ export default {
       }
     ],
     selectedItem: {
-      id: 1,
+      isActive: false,
       nama: 'Akademik',
       icon: 'https://cdn.lordicon.com/wxnxiano.json',
       layanan: [
@@ -435,20 +435,17 @@ export default {
   actions: {
     addToSelectedItem({ commit }, payload) {
       commit('SET_SELECTED_ITEM', payload)
-    },
-    switchStatus({ commit }, payload) {
-      commit('SET_STATUS', payload)
     }
   },
   mutations: {
-    SET_SELECTED_ITEM: (state, payload) => (state.selectedItem = payload),
-    SET_STATUS: (state, payload) => {
-      let status = state.selectedItem.layanan
+    SET_SELECTED_ITEM: (state, payload) => {
+      state.selectedItem = payload
+      let status = state.category
       status.forEach((item) => {
         if (item === payload) {
-          item.status = true
+          item.isActive = true
         } else {
-          item.status = false
+          item.isActive = false
         }
       })
     }

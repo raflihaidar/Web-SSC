@@ -8,7 +8,8 @@
         <section class="w-full flex justify-between items-start">
             <div class="w-[35%] border rounded-[0.5rem]">
                 <div v-for="(item, index) in selectedItem.layanan" :key="index">
-                    <div class="border-b-[1px] py-[15px] px-[30px] text-[14px]" @click="switchStatus(item)">
+                    <div class="border-b-[1px] py-[15px] px-[30px] text-[14px] cursor-pointer"
+                        :class="{ active: item.status }" @click="switchStatus(item)">
                         <div class="flex items-center gap-x-1">
                             <IconCheckList />
                             <p>{{ item.name }}</p>
@@ -41,11 +42,6 @@ export default {
     name: 'ServiceComponent',
     components: {
         IconCheckList
-    },
-    methods: {
-        switchStatus(index) {
-            this.$store.dispatch('switchStatus', index)
-        }
     },
     computed: {
         ...mapGetters(['selectedItem'])

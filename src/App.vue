@@ -1,16 +1,20 @@
 
 <template>
-  <Navbar />
-  <MainComponent />
-  <PanduanComponent />
-  <CategoryComponent />
-  <ServiceComponent />
-  <InformationComponent />
-  <FooterComponent />
+  <div class="selection:bg-custom-red selection:text-white">
+    <Navbar />
+    <MainComponent />
+    <PanduanComponent />
+    <ButtonToTop />
+    <CategoryComponent />
+    <ServiceComponent />
+    <InformationComponent />
+    <FooterComponent />
+  </div>
 </template>
 
 <script>
 //Components
+import ButtonToTop from './components/buttonToTop.vue'
 import Navbar from './components/NavbarComponent.vue';
 import MainComponent from './components/MainComponent.vue'
 import PanduanComponent from './components/PanduanComponent.vue';
@@ -25,6 +29,7 @@ export default {
     Navbar,
     MainComponent,
     PanduanComponent,
+    ButtonToTop,
     CategoryComponent,
     ServiceComponent,
     InformationComponent,

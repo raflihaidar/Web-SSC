@@ -5,12 +5,6 @@ module.exports = {
     extend: {
       colors: {
         'custom-red': '#AA0000'
-      },
-      fontWeight: {
-        custom: '400'
-      },
-      fontFamily: {
-        quickSand: ['Quicksand']
       }
     }
   },
