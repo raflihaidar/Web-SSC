@@ -1,7 +1,7 @@
 <template>
     <div class="bg-[#1a1a1a] text-white py-10 leading-[1.2]">
 
-        <div class="grid grid-cols-3 w-[85%] mx-auto items-center gap-x-6">
+        <div class="grid xl:grid-cols-3 w-[85%] mx-auto items-center gap-x-6 gap-y-5">
             <div>
                 <div class="text-3xl font-semibold mr-[123px]">
                     <p>Student Service Center</p>

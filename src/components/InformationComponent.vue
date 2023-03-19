@@ -1,10 +1,10 @@
 <template>
-    <div class="flex w-[85%] mx-auto mb-20 font-normal text-[#465b52] text-[1rem]"
+    <div class="flex flex-col xl:flex-row xl:w-[85%] w-full xl:mx-auto mb-20 font-normal text-[#465b52] text-[1rem] xl:p-0 px-2"
         v-if="selectedItem && selectedItem.informasi">
-        <div class="w-[50%] tracking-wider">
+        <div class="xl:w-[50%] w-full tracking-wider">
             <section class="flex items-center text-[26px] text-custom-red gap-x-8 font-semibold mb-6">
                 <div class="w-[14%] h-[1.2rem] bg-custom-red rounded-[0.3rem]"></div>
-                <p class="w-[75%]"> {{ selectedItem.informasi.nama }}</p>
+                <p class="xl:w-[75%] w-full"> {{ selectedItem.informasi.nama }}</p>
             </section>
 
             <section class="mb-10">
@@ -39,7 +39,7 @@
             </section>
         </div>
 
-        <div class="w-[50%]">
+        <div class="xl:w-[50%] w-full">
             <img :src="selectedItem.informasi.img" alt="layanan akademik">
         </div>
     </div>

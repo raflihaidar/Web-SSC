@@ -379,7 +379,7 @@ export default {
       }
     ],
     selectedItem: {
-      isActive: false,
+      isActive: true,
       nama: 'Akademik',
       icon: 'https://cdn.lordicon.com/wxnxiano.json',
       layanan: [
@@ -435,6 +435,9 @@ export default {
   actions: {
     addToSelectedItem({ commit }, payload) {
       commit('SET_SELECTED_ITEM', payload)
+    },
+    switchStatus({ commit }, payload) {
+      commit('TOGGLE_STATUS', payload)
     }
   },
   mutations: {
@@ -446,6 +449,15 @@ export default {
           item.isActive = true
         } else {
           item.isActive = false
+        }
+      })
+    },
+    TOGGLE_STATUS: (state, payload) => {
+      state.selectedItem.layanan.forEach((item) => {
+        if (item === payload) {
+          item.status = true
+        } else {
+          item.status = false
         }
       })
     }

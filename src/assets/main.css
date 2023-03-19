@@ -93,3 +93,34 @@ span::first-letter {
   bottom: -2em;
   left: 5px;
 }
+
+@media screen and (max-width: 768px) {
+  .base-timeline {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .base-timeline::before {
+    border: none;
+  }
+  .base-timeline__item {
+    display: block;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  .base-timeline__item::before {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: -15px;
+  }
+  .base-timeline__item:after {
+    transform: translateX(0);
+    position: relative;
+    left: 0;
+    margin-top: 10px;
+  }
+  .base-timeline__summary-text {
+    position: static;
+    margin-top: 20px;
+  }
+}

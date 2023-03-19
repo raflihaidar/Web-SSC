@@ -5,10 +5,10 @@
             <p class="w-[75%]">Layanan {{ selectedItem.nama }}</p>
         </section>
 
-        <section class="w-full flex justify-between items-start">
-            <div class="w-[35%] border rounded-[0.5rem]">
+        <section class="w-full flex gap-y-5 flex-col xl:flex-row justify-between items-start">
+            <div class="xl:w-[35%] w-full border rounded-[0.5rem]">
                 <div v-for="(item, index) in selectedItem.layanan" :key="index">
-                    <div class="border-b-[1px] py-[15px] px-[30px] text-[14px] cursor-pointer"
+                    <div class="border-b-[1px] py-[15px] px-[30px] text-[14px] cursor-pointer "
                         :class="{ active: item.status }" @click="switchStatus(item)">
                         <div class="flex items-center gap-x-1">
                             <IconCheckList />
@@ -17,9 +17,9 @@
                     </div>
                 </div>
             </div>
-            <div class="w-[63%] border rounded-[0.5rem]">
+            <div class="xl:w-[63%] w-full border rounded-[0.5rem]">
                 <div v-for="(item, index) in selectedItem.layanan" :key="index">
-                    <div v-if="item.status">
+                    <div v-if="item.status" class="animate-opacity">
                         <div class="w-full border-b-[1px] text-sm p-[1rem]">
                             <p>{{ item.name }}</p>
                         </div>
@@ -42,6 +42,11 @@ export default {
     name: 'ServiceComponent',
     components: {
         IconCheckList
+    },
+    methods: {
+        switchStatus(item) {
+            this.$store.dispatch('switchStatus', item)
+        }
     },
     computed: {
         ...mapGetters(['selectedItem'])

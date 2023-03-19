@@ -4,9 +4,9 @@
             <TitleComponent msg="Kategori" msg2="Layanan" />
         </div>
 
-        <div class="grid grid-cols-4">
+        <div class="grid xl:grid-cols-4">
             <div v-for="(item, index) in category" :key="index">
-                <div class='w-[312px] border-2 rounded-[0.5rem] mt-5 p-5 card' :class="{ active: item.isActive }"
+                <div class='xl:w-[312px] border-2 rounded-[0.5rem] mt-5 p-5 card' :class="{ active: item.isActive }"
                     @click="addToSelectedItem(item)">
                     <figure class="text-center font-bold" @click="addActive($event)">
                         <lord-icon v-if="item.isActive" trigger="morph" :src="item.icon" class="w-[100px] h-[100px]"
