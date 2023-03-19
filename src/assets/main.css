@@ -2,13 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  html {
-    font-family: 'Quicksand', sans-serif;
-    scroll-behavior: smooth;
-  }
-}
-
 .active {
   background-color: #aa0000;
   color: #fff;

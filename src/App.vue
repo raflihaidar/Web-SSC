@@ -1,6 +1,6 @@
 
 <template>
-  <div class="selection:bg-custom-red selection:text-white">
+  <div class="selection:bg-custom-red selection:text-white font-openSans">
     <Navbar />
     <MainComponent />
     <PanduanComponent />

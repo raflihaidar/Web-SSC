@@ -240,7 +240,7 @@ export default {
           nama: 'Informasi Pusat Bahasa & Perpustakaan',
           notion:
             'Merupakan unit yang bertugas mengelola administrasi perpus yang mencakup kegiatan layanan administrasi perpus, pusat bahasa, dan perpustakaan. Informasi lengkap mengenai Unit Pusat Bahasa & Perpustakaan, silakan kunjungi:',
-          ig: 'https://www.instagram.com/akademikitts/',
+          ig: 'akademikitts',
           web: 'https://perpus.ittelkom-sby.ac.id/',
           img: 'https://ssc.ittelkom-sby.ac.id/assets-home/imgs/banner/device-perpus.png'
         }

@@ -33,11 +33,11 @@
                 </div>
             </div>
 
-            <ul class="mt-10">
-                <li class="py-2 border-b-[1px]">Home</li>
-                <li class="py-2 border-b-[1px]">Admin Page</li>
-                <li class="py-2 border-b-[1px]">Services List</li>
-                <li class="py-2">Log Ticket</li>
+            <ul class="mt-10 font-semibold">
+                <a class="block py-2 border-b-[1px]" href="https://ssc.ittelkom-sby.ac.id/">Home</a>
+                <a class="block py-2 border-b-[1px]" href="https://ssc.ittelkom-sby.ac.id/operator-sign-in">Admin Page</a>
+                <a class="block py-2 border-b-[1px]" href="https://ssc.ittelkom-sby.ac.id/list">Services List</a>
+                <a class="block py-2" href="https://ssc.ittelkom-sby.ac.id/log-ticket">Log Ticket</a>
             </ul>
         </div>
     </div>

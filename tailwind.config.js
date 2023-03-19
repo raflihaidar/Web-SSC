@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         'custom-red': '#AA0000'
       },
+      fontFamily: {
+        openSans: "font-family: 'Quicksand', sans-serif;"
+      },
       keyframes: {
         slideIn: {
           '0%': { transform: 'translateX(100%)' },

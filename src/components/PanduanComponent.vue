@@ -1,5 +1,5 @@
 <template>
-    <div class="w-[85%] mx-auto mb-56 tracking-wider">
+    <div class="xl:w-[85%] px-5 w-full mx-auto mb-56 tracking-wider">
         <TitleComponent msg="Panduan" msg2="Pengajuan Layanan" />
         <TimelinesComponent />
     </div>
